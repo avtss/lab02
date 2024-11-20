@@ -1,8 +1,9 @@
 #include <iostream>
 
-int main(int argc, char** argv)
+int
+main(int argc, char** argv)
 {
-	//изменения в коде после удаления using namespace std
+	// changes to code caused by using namespace std removal
 	std::cout << "Enter username:";
 	std::string userName;
 	std::cin >> userName;
